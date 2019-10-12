@@ -1,0 +1,2 @@
+# termuxshow
+Simple pkg
