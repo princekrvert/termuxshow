@@ -11,7 +11,7 @@ apt install python -y
 apt install toilet
 apt update && apt upgade
 read -p "enter your name " name
-toilet " $name " --metal
+toilet " $name " --metal | lolcat
  pkg install cmatrix
  
  
