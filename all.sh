@@ -8,11 +8,11 @@ pkg install lolcat
 apt-get imstall lolcat
 apt-get install cmatrix
 apt install python -y
-apt install toilet
-apt update && apt upgade
+apt install toilet | lolcat
+apt update && apt upgade | lolcat
 read -p "enter your name " name
 toilet " $name " --metal | lolcat
- pkg install cmatrix
+ pkg install cmatrix |lolcat
  
  
  echo -e  " \e[35m //////// tools /////////// \e[0m"
@@ -38,14 +38,14 @@ echo -e "\e[33m ****************************** \e[0m"
  
  "1")
  echo -e "\e[32m banner installing \e[0m" 
- git clone https://github.com/Bhai4You/Termux-Banner
+ git clone https://github.com/Bhai4You/Termux-Banner | lolcat
  cowsay pkg installed " $name "
  
   ;;
  
  "2")
  echo -e "\e[32m fbi installing \e[0m" 
-git clone https://github.com/xHak9x/fbi.git
+git clone https://github.com/xHak9x/fbi.git | lolcat
 cowsay pkg installed " $name "
  ;;
  
@@ -59,20 +59,20 @@ cmatrix
 
  "4")
  echo -e "\e[32m cowsay \e[0m" 
-pkg install cowsay
+pkg install cowsay | lolcat
 cowsay pkg installed " $name "
  ;;
  "5" )
  cowsay pkg insralling
- git clone https://github.com/princekrvert/gmailbomber.git 
+ git clone https://github.com/princekrvert/gmailbomber.git | lolcat
  ;;
   "6" )
  cowsay pkg insralling
- git clone https://github.com/princekrvert/hackgmail.py-.git
+ git clone https://github.com/princekrvert/hackgmail.py-.git | lolcat
  ;;
    "7" )
  cowsay pkg insralling
- git clone https://github.com/princekrvert/YouTube_D.git
+ git clone https://github.com/princekrvert/YouTube_D.git | lolcat
  ;;
  
  "8" )
