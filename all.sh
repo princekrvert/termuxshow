@@ -1,12 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
 figlet -f big prince | lolcat 
 apt update && apt upgade
-apt install git 
-apt-get install cawsay
+apt install git | lolcat
+apt-get install cawsay | lolcat
 pkg install cowsay
 pkg install lolcat
 apt-get imstall lolcat
-apt-get install cmatrix
+apt-get install cmatrix | lolcat
 apt install python -y
 apt install toilet | lolcat
 apt update && apt upgade | lolcat
