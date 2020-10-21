@@ -123,7 +123,11 @@ echo -e "\e[33m ****************************** \e[0m"
   ;;
  "*")
  echo -e "\e[32m wrong keyword \e[0m" 
+ exit
+
 
  ;;
 
  esac
+ read p "enter to continue...."
+ bash all.sh
