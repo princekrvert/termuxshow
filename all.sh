@@ -1,17 +1,17 @@
 #!/data/data/com.termux/files/usr/bin/bash
-figlet -f big prince | lolcat 
 apt update && apt upgade
-apt install git | lolcat
-apt-get install cawsay | lolcat
+pkg install ruby
+apt-get install ruby
+gem install lolcat
 pkg install cowsay
-pkg install lolcat
-apt-get imstall lolcat
+pkg install toilet
+apt install git | lolcat
 apt-get install cmatrix | lolcat
 apt install python -y
 apt install toilet | lolcat
 apt update && apt upgade | lolcat
 read -p "enter your name " name
-toilet " $name " --metal | lolcat
+cowsay -f eyes welcome $name  | lolcat
  pkg install cmatrix |lolcat
  
  
@@ -19,7 +19,7 @@ toilet " $name " --metal | lolcat
  echo -e "\e[35m ****************************** \e[0m"
  echo -e "\e[38m ****************************** \e[0m"
  
-echo -e "\e[33m ****************************** \e[0m"
+echo -e "\e[33m [*] Prince Web\e[0m"
  
  echo -e "\e[32m ****************************** \e[0m"
  echo -e "\e[33m ****************************** \e[0m"
