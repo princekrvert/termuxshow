@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 apt update && apt upgade
 pkg install ruby
 apt-get install ruby
@@ -20,7 +20,7 @@ echo -e "\e[34m[*] YouTube :- \e[32mhttps://m.youtube.com/c/Princeweb"
  echo -e "\e[35m ****************************** \e[0m"
  echo -e "\e[38m ****************************** \e[0m"
  
-echo -e "\e[32m
+echo -e "\e[34m
  　　██░▀██████████████▀░██
 　　█▌▒▒░████████████░▒▒▐█
 　　█░▒▒▒░██████████░▒▒▒░█
