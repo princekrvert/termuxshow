@@ -70,6 +70,7 @@ echo -e "\e[36m
  
  "2")
  echo -e "\e[32m fbi installing \e[0m" 
+ cd ..
 git clone https://github.com/xHak9x/fbi.git | lolcat
 cowsay pkg installed " $name "
  ;;
@@ -89,26 +90,32 @@ cowsay pkg installed " $name "
  ;;
  "5" )
  cowsay pkg insralling
+ cd ..
  git clone https://github.com/princekrvert/gmailbomber.git | lolcat
  ;;
   "6" )
  cowsay pkg insralling
+ cd ..
  git clone https://github.com/princekrvert/hackgmail.py-.git | lolcat
  ;;
    "7" )
  cowsay pkg insralling
+ cd ..
  git clone https://github.com/princekrvert/YouTube_D.git | lolcat
  ;;
  "8" )
  cowsay exiftool installing $name 
+ cd ..
  git clone https://github.com/exiftool/exiftool.git
  ;;
  "9")
  cowsay inshackle installing $name 
+ cd ..
  git clone https://github.com/cyberkallan/inshackle-bot.git
  ;;
  "10")
  cowsay TBomb installing $name
+ cd ..
  git clone https://github.com/TheSpeedX/TBomb.git
  ;;
  "11" )
