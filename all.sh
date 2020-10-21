@@ -46,15 +46,15 @@ echo -e "\e[36m
  echo -e "\e[33m ****************************** \e[0m"
  echo -e " \e[32m[×]1. banner \e[0m"
  echo -e " \e[32m[×]2. fbi \e[0m"
- echo -e " \e[32m[*]3.hacking effect \e[0m"
- echo -e " \e[32m[*]4.cowsay \e[0m"
- echo -e " \e[32m[*]5.emailbom \e[0m"
- echo -e " \e[32m[*]6.gmailbrut \e[0m"
- echo -e " \e[32m [*]7.youtube downloder \e[0m"
- echo -e " \e[32m[*]8.exiftool\e[0m"
- echo -e " \e[32m[*]9.Inshackle \e[0m"
- echo -e "\e[32m TBomb \e[0m"
- echo -e "\e[32m about author \e[0m"
+ echo -e " \e[32m[*]3. hacking effect \e[0m"
+ echo -e " \e[32m[*]4. cowsay \e[0m"
+ echo -e " \e[32m[*]5. emailbom \e[0m"
+ echo -e " \e[32m[*]6. gmailbrut \e[0m"
+ echo -e " \e[32m [*]7. youtube downloder \e[0m"
+ echo -e " \e[32m[*]8. exiftool\e[0m"
+ echo -e " \e[32m[*]9. Inshackle \e[0m"
+ echo -e "\e[32m[*]10. TBomb \e[0m"
+ echo -e "\e[32m[*]11. about author \e[0m"
   
   echo -e "\e[36m=====================================================\e[0m"
  read -p " type your choise " too 
@@ -132,5 +132,13 @@ echo -e "\e[32m [●]YouTube:- https://m.youtube.com/c/Princeweb
  ;;
 
  esac
- read p "enter to continue...."
- bash all.sh
+ read -p "WANT TO TOOL RUN AGAIN[Y/N]...." run 
+ case $run in
+"Y")
+bash all.sh
+;;
+"N")
+exit
+;;
+esac
+ 
