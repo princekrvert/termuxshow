@@ -14,13 +14,13 @@ read -p "enter your name " name
 cowsay -f eyes welcome $name  | lolcat
 echo -e "\e[34m[*] YouTube :- \e[32mhttps://m.youtube.com/c/Princeweb"
  pkg install cmatrix |lolcat
- 
+ clear
  
  echo -e  " \e[35m //////// tools /////////// \e[0m"
  echo -e "\e[35m ****************************** \e[0m"
  echo -e "\e[38m ****************************** \e[0m"
  
-echo -e "\e[34m
+echo -e "\e[36m
  　　██░▀██████████████▀░██
 　　█▌▒▒░████████████░▒▒▐█
 　　█░▒▒▒░██████████░▒▒▒░█
