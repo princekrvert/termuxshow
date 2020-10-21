@@ -19,6 +19,7 @@ echo -e "\e[34m[*] YouTube :- \e[32mhttps://m.youtube.com/c/Princeweb"
  echo -e  " \e[35m //////// tools /////////// \e[0m"
  echo -e "\e[35m ****************************** \e[0m"
  echo -e "\e[38m ****************************** \e[0m"
+ clear 
  
 echo -e "\e[36m
  　　██░▀██████████████▀░██
@@ -43,17 +44,21 @@ echo -e "\e[36m
 \e[0m"
  echo -e "\e[32m ****************************** \e[0m"
  echo -e "\e[33m ****************************** \e[0m"
- echo -e " \e[32m 1. banner \e[0m"
- echo -e " \e[32m 2. fbi \e[0m"
- echo -e " \e[32m 3. hacking effect \e[0m"
- echo -e " \e[32m 4. cowsay \e[0m"
- echo -e " \e[32m 5.emailbom \e[0m"
- echo -e " \e[32m 6.gmailbrut \e[0m"
- echo -e " \e[32m 7.youtube downloder \e[0m"
-  echo -e " \e[32m 8.about \e[0m"
+ echo -e " \e[32m[×]1. banner \e[0m"
+ echo -e " \e[32m[×]2. fbi \e[0m"
+ echo -e " \e[32m[*]3.hacking effect \e[0m"
+ echo -e " \e[32m[*]4.cowsay \e[0m"
+ echo -e " \e[32m[*]5.emailbom \e[0m"
+ echo -e " \e[32m[*]6.gmailbrut \e[0m"
+ echo -e " \e[32m [*]7.youtube downloder \e[0m"
+ echo -e " \e[32m[*]8.exiftool\e[0m"
+ echo -e " \e[32m[*]9.Inshackle \e[0m"
+ echo -e "\e[32m TBomb \e[0m"
+ echo -e "\e[32m about author \e[0m"
+  
   echo -e "\e[36m=====================================================\e[0m"
  read -p " type your choise " too 
- 
+ #setting case
  case  $too  in
  
  "1")
@@ -94,32 +99,30 @@ cowsay pkg installed " $name "
  cowsay pkg insralling
  git clone https://github.com/princekrvert/YouTube_D.git | lolcat
  ;;
- 
  "8" )
-echo -e "\e[35m ****************************** \e[0m"
- echo -e "\e[38m ****************************** \e[0m"
+ cowsay exiftool installing $name 
+ git clone https://github.com/exiftool/exiftool.git
+ ;;
+ "9")
+ cowsay inshackle installing $name 
+ git clone https://github.com/cyberkallan/inshackle-bot.git
+ ;;
+ "10")
+ cowsay TBomb installing $name
+ git clone https://github.com/TheSpeedX/TBomb.git
+ ;;
+ "11" )
+
+  echo -e "\e[95m
+  
  
-echo -e "\e[33m ****************************** \e[0m"
- 
- echo -e "\e[32m ****************************** \e[0m"
- echo -e "\e[33m ****************************** \e[0m"
- echo -e "\e[35m ****************************** \e[0m"
- echo -e "\e[38m ****************************** \e[0m"
- 
-echo -e "\e[33m ****************************** \e[0m"
- 
- echo -e "\e[32m ****************************** \e[0m"
- echo -e "\e[33m ****************************** \e[0m"
- 
- echo -e "\e[36m author: prince kumar \e[0m"
- echo -e "\e[35m ****************************** \e[0m"
- echo -e "\e[38m ****************************** \e[0m"
- 
-echo -e "\e[33m ****************************** \e[0m"
- 
- echo -e "\e[32m ****************************** \e[0m"
- echo -e "\e[33m ****************************** \e[0m"       
- echo -e "\e[34m( email:princekrvert@gmail.com) \e[0m"
+█████████████████████████████████████
+█▄─▄▄─█▄─▄▄▀█▄─▄█▄─▀█▄─▄█─▄▄▄─█▄─▄▄─█
+██─▄▄▄██─▄─▄██─███─█▄▀─██─███▀██─▄█▀█
+▀▄▄▄▀▀▀▄▄▀▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀
+\e[0m
+echo -e "\e[32m [●]YouTube:- https://m.youtube.com/c/Princeweb
+
   ;;
  "*")
  echo -e "\e[32m wrong keyword \e[0m" 
