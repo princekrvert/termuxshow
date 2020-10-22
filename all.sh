@@ -127,8 +127,8 @@ cowsay pkg installed " $name "
 █▄─▄▄─█▄─▄▄▀█▄─▄█▄─▀█▄─▄█─▄▄▄─█▄─▄▄─█
 ██─▄▄▄██─▄─▄██─███─█▄▀─██─███▀██─▄█▀█
 ▀▄▄▄▀▀▀▄▄▀▄▄▀▄▄▄▀▄▄▄▀▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀
-\e[0m
-echo -e "\e[32m [●]YouTube:- https://m.youtube.com/c/Princeweb
+\e[0m"
+echo -e "\e[32m [●]YouTube:- https://m.youtube.com/c/Princeweb"
 
   ;;
  "*")
