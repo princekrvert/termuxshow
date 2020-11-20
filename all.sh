@@ -46,7 +46,7 @@ echo -e "\e[36m
  echo -e "\e[33m ****************************** \e[0m"
  echo -e " \e[32m[×]1. banner \e[0m"
  echo -e " \e[32m[×]2. fbi \e[0m"
- echo -e " \e[32m[*]3. hacking effect \e[0m"
+ echo -e " \e[32m[*]3. Ravana (phishing tool) \e[0m"
  echo -e " \e[32m[*]4. cowsay \e[0m"
  echo -e " \e[32m[*]5. emailbom \e[0m"
  echo -e " \e[32m[*]6. gmailbrut \e[0m"
@@ -79,8 +79,8 @@ cowsay pkg installed " $name "
  
  cowsay pkg installing " $name "
  echo -e "\e[32m installing \e[0m" 
-apt-get install cmatrix
-cmatrix
+ git clone https://github.com/princekrvert/Ravana.git
+ echo "Ravana installed"
  ;;
 
  "4")
